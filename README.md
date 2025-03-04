@@ -1,1 +1,1 @@
-# podcaqt-generator
+# podcast-generator

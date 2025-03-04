@@ -5,9 +5,7 @@ RUN apt-get update && \
     pip3 install PyYAML && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
-    git
-
-RUN pip3 install PyYAML
+    
 COPY feed.py /usr/bin/feed.py
 COPY entrypoint.sh /entrypoint.sh
 

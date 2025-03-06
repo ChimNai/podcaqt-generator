@@ -9,5 +9,5 @@ COPY feed.py /usr/bin/feed.py
 COPY entrypoint.sh /entrypoint.sh
 
 # Set the virtual environemnt as the default Python environment
-ENV PATH="/venv/bin:$PATH"
+
 ENTRYPOINT ["/entrypoint.sh"]
